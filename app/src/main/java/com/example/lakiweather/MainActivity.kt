@@ -14,7 +14,8 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
     var city:String ="Palayamkottai"
-    val appid:String="a70dc824b8d298748e37f76f80f8f688"
+    val appid:String="your api id"
+    // you can sign in openweather.org and get your own api id
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
